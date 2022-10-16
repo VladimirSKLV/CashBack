@@ -30,7 +30,7 @@ public class CashbackHackerTest {
     public void showNullBoundary () {
         int purchaseAmount = 0;
         int actualResult = service.remain(purchaseAmount);
-        int expectedResult = 1000;
+        int expectedResult = 10000;
         assertEquals(actualResult, expectedResult);
 
     }
